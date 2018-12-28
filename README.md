@@ -1,4 +1,4 @@
-# nprSiteSongScraper
+# NPR Morning Edition Website Song Scraper
 NPR has some great chill interlude music throughout the day. They only play a snippet of it though. I wanted a playlist I could jam to while working so I wrote these scripts to scrape the last weeks interlude music titles and artists from NPR's website, search youtube (wihtout API calls) for the first result from that search term, and create a youtube playlist of all the songs.
 
 There are several files included here. The goal was to browse a show's archive on npr.org and ultimately make playlists as far back as you wanted automatically, ie. for the last 4 weeks for instance if you wanted.  There's problems with this. Firstly, the method for creating the youtube playlists doesn't use the API or login credentials and so it only workes for <50 videos. More vids would require multiple playlist links. Secondly, the autoscrolling NPR website doesn't allow the pages to be scraped correctly. I have all my code up here in case anyone wants to contribute to fix that...
